@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Overview",
+    "Data": "\n\n\n\n\n\n\n\n \n     \n     \n     \n    ",
+    "Style": "width: 1920px; height: 1080px; background-color: rgb(220, 220, 220); margin-top: 0px; margin-left: 0px; transform: scale(1); opacity: 1; cursor: default;",
+    "UserGroups": "",
+    "LibraryPath": "",
+    "DisableZoom": false,
+    "DisablePan": false,
+    "PageScript": "function OnPageLoad() {\n    //console.log(\u0027Page Loaded\u0027);\n}\n\nfunction OnPagePeriodic() {\n    //console.log(\u0027Page Code Executing\u0027);\n}\n\nfunction OnPageExit() {\n    //console.log(\u0027Page Exited\u0027);\n}",
+    "RefreshTime": 250,
+    "BaseScale": "1.0",
+    "Replacers": ""
+  }
+]

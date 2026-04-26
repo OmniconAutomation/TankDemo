@@ -1,0 +1,34 @@
+[
+  {
+    "GroupName": "Administrators",
+    "Description": "System Administrators group",
+    "AlarmAcknowledgeRight": false,
+    "AlarmAcknowledgeAllRight": false,
+    "AlarmDeleteRight": false,
+    "AlarmRemoveActiveRight": false,
+    "AlarmRemoveAllActiveRight": false,
+    "EventDeleteRight": false,
+    "UserEditRight": false,
+    "UserDeleteRight": false,
+    "SessionTimeout": 300,
+    "ADGroup": null,
+    "ADHomePage": null,
+    "ADDefaultLanguage": null
+  },
+  {
+    "GroupName": "Operators",
+    "Description": "Default created group",
+    "AlarmAcknowledgeRight": false,
+    "AlarmAcknowledgeAllRight": false,
+    "AlarmDeleteRight": false,
+    "AlarmRemoveActiveRight": false,
+    "AlarmRemoveAllActiveRight": false,
+    "EventDeleteRight": false,
+    "UserEditRight": false,
+    "UserDeleteRight": false,
+    "SessionTimeout": 300,
+    "ADGroup": null,
+    "ADHomePage": null,
+    "ADDefaultLanguage": null
+  }
+]

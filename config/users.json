@@ -1,0 +1,16 @@
+[
+  {
+    "UserName": "Admin",
+    "Password": "10000.kqL8yt5VuRr5jPRagRPs1A==.nN0WkltiEGzhtgqx54vzhpxhYQ4Kh8T8i10CqJVx2zQ=",
+    "UserGroups": "Administrators",
+    "HomePage": "Overview",
+    "DefaultLanguage": "English"
+  },
+  {
+    "UserName": "Operator",
+    "Password": "10000.tWgX5aoqg6NQIlsuEZ6NKA==.fmNgVQIHhyGo/sh3/StEVoGOAo32jMz3JZslJgCPG9k=",
+    "UserGroups": "Operators",
+    "HomePage": "Overview",
+    "DefaultLanguage": "English"
+  }
+]
