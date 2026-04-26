@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "Name": "Fill Tank",
+    "Enable": true,
+    "Asset": "",
+    "FromTime": "2025-01-01T00:30:00",
+    "ToTime": null,
+    "Repeat": "Every Hour",
+    "Description": "Set Tank to 7500",
+    "Exceptions": "",
+    "Actions": "[{\u0022Type\u0022:\u0022Set Value\u0022,\u0022Variable\u0022:\u0022Sim.Tank1_SetLevel\u0022,\u0022Value\u0022:\u00227500\u0022}]",
+    "ActionsOff": ""
+  },
+  {
+    "Name": "Empty Tank",
+    "Enable": true,
+    "Asset": "",
+    "FromTime": "2025-01-01T00:00:00",
+    "ToTime": null,
+    "Repeat": "Every Hour",
+    "Description": "Set Tank to 2500",
+    "Exceptions": "",
+    "Actions": "[{\u0022Type\u0022:\u0022Set Value\u0022,\u0022Variable\u0022:\u0022Sim.Tank1_SetLevel\u0022,\u0022Value\u0022:\u00222500\u0022}]",
+    "ActionsOff": ""
+  },
+  {
+    "Name": "Daily Report",
+    "Enable": true,
+    "Asset": "",
+    "FromTime": "2025-01-01T00:15:00",
+    "ToTime": null,
+    "Repeat": "Every Day",
+    "Description": "Generate Daily Report",
+    "Exceptions": "",
+    "Actions": "[{\u0022Type\u0022:\u0022Execute Script\u0022,\u0022Script\u0022:\u0022DailyReport\u0022}]",
+    "ActionsOff": ""
+  },
+  {
+    "Name": "MyScript",
+    "Enable": true,
+    "Asset": "",
+    "FromTime": "2026-03-31T08:00:00",
+    "ToTime": null,
+    "Repeat": "",
+    "Description": "",
+    "Exceptions": "",
+    "Actions": "[{\u0022Type\u0022:\u0022Execute Script\u0022,\u0022Script\u0022:\u0022Calculate\u0022}]",
+    "ActionsOff": ""
+  }
+]

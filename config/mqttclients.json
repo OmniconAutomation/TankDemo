@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "Enable": true,
+    "Name": "broker",
+    "Url": "127.0.0.1",
+    "Port": 1883,
+    "Timeout": 10,
+    "Retry": 5,
+    "Username": null,
+    "Password": null,
+    "Verbose": 0,
+    "UseTls": false,
+    "AllowUntrustedCertificates": false,
+    "ClientCertificateName": null,
+    "Description": null
+  }
+]

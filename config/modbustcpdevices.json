@@ -1,14 +1,14 @@
 [
   {
     "Enable": true,
-    "Name": "PLC1",
+    "Name": "M340",
     "IpAddress": "127.0.0.1",
-    "SecondaryIp": "",
+    "SecondaryIp": null,
     "Port": 502,
     "UnitId": 1,
     "ScanRate": 2000,
     "Template": "",
-    "Description": "Test",
+    "Description": null,
     "AllowScanningBlocks": true,
     "MaxBlockSizeAllowed": 120,
     "AllowJumpingRegisters": true,
@@ -16,27 +16,6 @@
     "ByteSwap": false,
     "WordSwap": false,
     "DoubleSwap": false,
-    "Verbose": 0,
-    "Variables": null
-  },
-  {
-    "Enable": true,
-    "Name": "PLC2",
-    "IpAddress": "127.0.0.1",
-    "SecondaryIp": "",
-    "Port": 502,
-    "UnitId": 1,
-    "ScanRate": 2000,
-    "Template": "",
-    "Description": "Test",
-    "AllowScanningBlocks": true,
-    "MaxBlockSizeAllowed": 120,
-    "AllowJumpingRegisters": true,
-    "Timeout": 3000,
-    "ByteSwap": false,
-    "WordSwap": false,
-    "DoubleSwap": false,
-    "Verbose": 0,
-    "Variables": null
+    "Verbose": 0
   }
 ]

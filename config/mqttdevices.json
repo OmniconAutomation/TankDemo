@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "Enable": true,
+    "Name": "PowerMeter",
+    "MqttClientName": "broker",
+    "Template": "",
+    "Timeout": 120,
+    "Description": null
+  }
+]

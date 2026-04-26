@@ -30,5 +30,21 @@
     "ADGroup": null,
     "ADHomePage": null,
     "ADDefaultLanguage": null
+  },
+  {
+    "GroupName": "Maintenance",
+    "Description": "",
+    "AlarmAcknowledgeRight": false,
+    "AlarmAcknowledgeAllRight": false,
+    "AlarmDeleteRight": false,
+    "AlarmRemoveActiveRight": false,
+    "AlarmRemoveAllActiveRight": false,
+    "EventDeleteRight": false,
+    "UserEditRight": false,
+    "UserDeleteRight": false,
+    "SessionTimeout": 300,
+    "ADGroup": "",
+    "ADHomePage": "",
+    "ADDefaultLanguage": ""
   }
 ]

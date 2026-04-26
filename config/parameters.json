@@ -5,11 +5,11 @@
   },
   {
     "Name": "GuestHomePage",
-    "Value": ""
+    "Value": "Overview"
   },
   {
     "Name": "ProjectName",
-    "Value": ""
+    "Value": "Tank Demo Project - TEST LANG"
   },
   {
     "Name": "SMTPServer",
@@ -17,11 +17,11 @@
   },
   {
     "Name": "SMTPUsername",
-    "Value": ""
+    "Value": null
   },
   {
     "Name": "SMTPPassword",
-    "Value": ""
+    "Value": null
   },
   {
     "Name": "SMTPSender",
@@ -53,7 +53,7 @@
   },
   {
     "Name": "EnableAPI",
-    "Value": "false"
+    "Value": "True"
   },
   {
     "Name": "RotateHistorian",
@@ -65,7 +65,7 @@
   },
   {
     "Name": "ColorProfile",
-    "Value": ""
+    "Value": "{\n  \u0022Omnicon\u0022: \u0022#0f8ccf\u0022\n}"
   },
   {
     "Name": "HistorianPath",
@@ -113,11 +113,11 @@
   },
   {
     "Name": "TrainingSimulator",
-    "Value": "False"
+    "Value": "True"
   },
   {
     "Name": "LanguagesFile",
-    "Value": ""
+    "Value": "{\u0022Welcome! \\nThis a very simple Tank simulation demo project as an example on how to create a basic project with reusable symbols and faceplates.\u0022:{\u0022nl\u0022:\u0022Welkom! \\nDit is een zeer eenvoudig tank-simulatie demo project als voorbeeld hoe je een basisproject maakt met herbruikbare symbolen en faceplates.\u0022,\u0022fr\u0022:\u0022Bienvenue ! \\nCeci est un projet de d\\u00E9monstration tr\\u00E8s simple de simulation de r\\u00E9servoir comme exemple pour cr\\u00E9er un projet de base avec des symboles et faceplates r\\u00E9utilisables.\u0022,\u0022de\u0022:\u0022Willkommen! \\nDies ist ein sehr einfaches Tanksimulations-Demoprojekt als Beispiel zur Erstellung eines Basisprojekts mit wiederverwendbaren Symbolen und Faceplates.\u0022,\u0022es\u0022:\u0022\\u00A1Bienvenido! \\nEste es un proyecto de demostraci\\u00F3n muy simple de simulaci\\u00F3n de tanque como ejemplo de c\\u00F3mo crear un proyecto b\\u00E1sico con s\\u00EDmbolos y faceplates reutilizables.\u0022,\u0022pt\u0022:\u0022Bem-vindo! \\nEste \\u00E9 um projeto de demonstra\\u00E7\\u00E3o muito simples de simula\\u00E7\\u00E3o de tanque como exemplo de como criar um projeto b\\u00E1sico com s\\u00EDmbolos e faceplates reutiliz\\u00E1veis.\u0022,\u0022Manual\u0022:false},\u0022LT\u0022:{\u0022nl\u0022:\u0022LT\u0022,\u0022fr\u0022:\u0022LT\u0022,\u0022de\u0022:\u0022LT\u0022,\u0022es\u0022:\u0022LT\u0022,\u0022pt\u0022:\u0022LT\u0022,\u0022Manual\u0022:false},\u0022FI\u0022:{\u0022nl\u0022:\u0022FI\u0022,\u0022fr\u0022:\u0022FI\u0022,\u0022de\u0022:\u0022FI\u0022,\u0022es\u0022:\u0022FI\u0022,\u0022pt\u0022:\u0022FI\u0022,\u0022Manual\u0022:false},\u0022SUPPLY\u0022:{\u0022nl\u0022:\u0022TOEVOER\u0022,\u0022fr\u0022:\u0022ALIMENTATION\u0022,\u0022de\u0022:\u0022ZUFUHR\u0022,\u0022es\u0022:\u0022SUMINISTRO\u0022,\u0022pt\u0022:\u0022FORNECIMENTO\u0022,\u0022Manual\u0022:false},\u0022DRAIN\u0022:{\u0022nl\u0022:\u0022AFVOER\u0022,\u0022fr\u0022:\u0022VIDANGE\u0022,\u0022de\u0022:\u0022ABFLUSS\u0022,\u0022es\u0022:\u0022DRENAJE\u0022,\u0022pt\u0022:\u0022DRENAGEM\u0022,\u0022Manual\u0022:false},\u0022Pump 1\u0022:{\u0022nl\u0022:\u0022Pomp 1\u0022,\u0022fr\u0022:\u0022Pompe 1\u0022,\u0022de\u0022:\u0022Pumpe 1\u0022,\u0022es\u0022:\u0022Bomba 1\u0022,\u0022pt\u0022:\u0022Bomba 1\u0022,\u0022Manual\u0022:false},\u0022Pump 2\u0022:{\u0022nl\u0022:\u0022Pomp 2\u0022,\u0022fr\u0022:\u0022Pompe 2\u0022,\u0022de\u0022:\u0022Pumpe 2\u0022,\u0022es\u0022:\u0022Bomba 2\u0022,\u0022pt\u0022:\u0022Bomba 2\u0022,\u0022Manual\u0022:false},\u0022Pump 3\u0022:{\u0022nl\u0022:\u0022Pomp 3\u0022,\u0022fr\u0022:\u0022Pompe 3\u0022,\u0022de\u0022:\u0022Pumpe 3\u0022,\u0022es\u0022:\u0022Bomba 3\u0022,\u0022pt\u0022:\u0022Bomba 3\u0022,\u0022Manual\u0022:false},\u0022Drain Valve\u0022:{\u0022nl\u0022:\u0022Afvoerklep\u0022,\u0022fr\u0022:\u0022Vanne de vidange\u0022,\u0022de\u0022:\u0022Ablassventil\u0022,\u0022es\u0022:\u0022V\\u00E1lvula de drenaje\u0022,\u0022pt\u0022:\u0022V\\u00E1lvula de drenagem\u0022,\u0022Manual\u0022:false},\u0022Hold CTRL and scroll to Zoom \\nHold middle mouse button to Pan\\nCTRL \\u002B M to restore\u0022:{\u0022nl\u0022:\u0022Houd CTRL ingedrukt en scroll om te zoomen \\nHoud de middelste muisknop ingedrukt om te pannen\\nCTRL \\u002B M om te herstellen\u0022,\u0022fr\u0022:\u0022Maintenez CTRL et utilisez la molette pour zoomer \\nMaintenez le bouton central de la souris pour d\\u00E9placer\\nCTRL \\u002B M pour restaurer\u0022,\u0022de\u0022:\u0022Halten Sie CTRL gedr\\u00FCckt und scrollen Sie zum Zoomen \\nHalten Sie die mittlere Maustaste zum Verschieben\\nCTRL \\u002B M zum Wiederherstellen\u0022,\u0022es\u0022:\u0022Mantenga CTRL y use la rueda para hacer zoom \\nMantenga el bot\\u00F3n central del rat\\u00F3n para mover\\nCTRL \\u002B M para restaurar\u0022,\u0022pt\u0022:\u0022Mantenha CTRL premido e use a roda para ampliar \\nMantenha o bot\\u00E3o do meio do rato para mover\\nCTRL \\u002B M para restaurar\u0022,\u0022Manual\u0022:false},\u0022Supply Valve\u0022:{\u0022nl\u0022:\u0022Toevoerklep\u0022,\u0022fr\u0022:\u0022Vanne d\\u2019alimentation\u0022,\u0022de\u0022:\u0022Zufuhrventil\u0022,\u0022es\u0022:\u0022V\\u00E1lvula de suministro\u0022,\u0022pt\u0022:\u0022V\\u00E1lvula de fornecimento\u0022,\u0022Manual\u0022:false},\u0022Set Tank Level :\u0022:{\u0022nl\u0022:\u0022Stel tankniveau in :\u0022,\u0022fr\u0022:\u0022D\\u00E9finir le niveau du r\\u00E9servoir :\u0022,\u0022de\u0022:\u0022Tankf\\u00FCllstand einstellen :\u0022,\u0022es\u0022:\u0022Establecer nivel del tanque :\u0022,\u0022pt\u0022:\u0022Definir n\\u00EDvel do tanque :\u0022,\u0022Manual\u0022:false},\u0022Tank Demo\u0022:{\u0022nl\u0022:\u0022Tank Demo\u0022,\u0022fr\u0022:\u0022D\\u00E9mo R\\u00E9servoir\u0022,\u0022de\u0022:\u0022Tank Demo\u0022,\u0022es\u0022:\u0022Tanque Demo\u0022,\u0022pt\u0022:\u0022Demo do Tanque\u0022,\u0022Manual\u0022:false},\u0022For Developers: \\n\\nPress CTRL \\u002B E to go into Edit Mode\\nPress CTRL \\u002B Q to open the Menu\u0022:{\u0022nl\u0022:\u0022Voor ontwikkelaars: \\n\\nDruk op CTRL \\u002B E om naar Bewerkmodus te gaan\\nDruk op CTRL \\u002B Q om het menu te openen\u0022,\u0022fr\u0022:\u0022Pour les d\\u00E9veloppeurs : \\n\\nAppuyez sur CTRL \\u002B E pour passer en mode \\u00E9dition\\nAppuyez sur CTRL \\u002B Q pour ouvrir le menu\u0022,\u0022de\u0022:\u0022F\\u00FCr Entwickler: \\n\\nDr\\u00FCcken Sie CTRL \\u002B E f\\u00FCr den Bearbeitungsmodus\\nDr\\u00FCcken Sie CTRL \\u002B Q um das Men\\u00FC zu \\u00F6ffnen\u0022,\u0022es\u0022:\u0022Para desarrolladores: \\n\\nPresione CTRL \\u002B E para entrar en modo edici\\u00F3n\\nPresione CTRL \\u002B Q para abrir el men\\u00FA\u0022,\u0022pt\u0022:\u0022Para desenvolvedores: \\n\\nPrima CTRL \\u002B E para entrar no modo de edi\\u00E7\\u00E3o\\nPrima CTRL \\u002B Q para abrir o menu\u0022,\u0022Manual\u0022:false},\u0022Want a demo? \\ncontact@omniconautomation.com\u0022:{\u0022nl\u0022:\u0022Wil je een demo? \\ncontact@omniconautomation.com\u0022,\u0022fr\u0022:\u0022Vous voulez une d\\u00E9mo ? \\ncontact@omniconautomation.com\u0022,\u0022de\u0022:\u0022M\\u00F6chten Sie eine Demo? \\ncontact@omniconautomation.com\u0022,\u0022es\u0022:\u0022\\u00BFQuieres una demo? \\ncontact@omniconautomation.com\u0022,\u0022pt\u0022:\u0022Quer uma demonstra\\u00E7\\u00E3o? \\ncontact@omniconautomation.com\u0022,\u0022Manual\u0022:false},\u0022User Manual\u0022:{\u0022nl\u0022:\u0022Handleiding\u0022,\u0022fr\u0022:\u0022Manuel d\\u2019utilisation\u0022,\u0022de\u0022:\u0022Benutzerhandbuch\u0022,\u0022es\u0022:\u0022Manual de usuario\u0022,\u0022pt\u0022:\u0022Manual do utilizador\u0022,\u0022Manual\u0022:false},\u0022OFF\u0022:{\u0022nl\u0022:\u0022UIT\u0022,\u0022fr\u0022:\u0022ARR\\u00CAT\u0022,\u0022de\u0022:\u0022AUS\u0022,\u0022es\u0022:\u0022APAGADO\u0022,\u0022pt\u0022:\u0022DESLIGADO\u0022,\u0022Manual\u0022:false},\u0022Report\u0022:{\u0022nl\u0022:\u0022Rapport\u0022,\u0022fr\u0022:\u0022Rapport\u0022,\u0022de\u0022:\u0022Bericht\u0022,\u0022es\u0022:\u0022Informe\u0022,\u0022pt\u0022:\u0022Relat\\u00F3rio\u0022,\u0022Manual\u0022:false},\u0022Trend Analyst\u0022:{\u0022nl\u0022:\u0022Trend Analist\u0022,\u0022fr\u0022:\u0022Analyste de tendance\u0022,\u0022de\u0022:\u0022Trendanalyst\u0022,\u0022es\u0022:\u0022Analista de tendencias\u0022,\u0022pt\u0022:\u0022Analista de tend\\u00EAncias\u0022,\u0022Manual\u0022:false},\u0022Simulation \\u0026lt;br\\u0026gt; Auto\u0022:{\u0022nl\u0022:\u0022Simulatie \\u0026lt;br\\u0026gt; Auto\u0022,\u0022fr\u0022:\u0022Simulation \\u0026lt;br\\u0026gt; Auto\u0022,\u0022de\u0022:\u0022Simulation \\u0026lt;br\\u0026gt; Auto\u0022,\u0022es\u0022:\u0022Simulaci\\u00F3n \\u0026lt;br\\u0026gt; Auto\u0022,\u0022pt\u0022:\u0022Simula\\u00E7\\u00E3o \\u0026lt;br\\u0026gt; Auto\u0022,\u0022Manual\u0022:false},\u0022Simulation \\u0026lt;br\\u0026gt; OFF\u0022:{\u0022nl\u0022:\u0022Simulatie \\u0026lt;br\\u0026gt; UIT\u0022,\u0022fr\u0022:\u0022Simulation \\u0026lt;br\\u0026gt; ARR\\u00CAT\u0022,\u0022de\u0022:\u0022Simulation \\u0026lt;br\\u0026gt; AUS\u0022,\u0022es\u0022:\u0022Simulaci\\u00F3n \\u0026lt;br\\u0026gt; APAGADO\u0022,\u0022pt\u0022:\u0022Simula\\u00E7\\u00E3o \\u0026lt;br\\u0026gt; DESLIGADO\u0022,\u0022Manual\u0022:false},\u0022Information\u0022:{\u0022nl\u0022:\u0022Informatie\u0022,\u0022fr\u0022:\u0022Information\u0022,\u0022de\u0022:\u0022Information\u0022,\u0022es\u0022:\u0022Informaci\\u00F3n\u0022,\u0022pt\u0022:\u0022Informa\\u00E7\\u00E3o\u0022,\u0022Manual\u0022:false},\u0022Alarm Viewer\u0022:{\u0022nl\u0022:\u0022Alarmoverzicht\u0022,\u0022fr\u0022:\u0022Visualiseur d\\u2019alarmes\u0022,\u0022de\u0022:\u0022Alarmanzeige\u0022,\u0022es\u0022:\u0022Visor de alarmas\u0022,\u0022pt\u0022:\u0022Visualizador de alarmes\u0022,\u0022Manual\u0022:false},\u0022Event Viewer\u0022:{\u0022nl\u0022:\u0022Eventoverzicht\u0022,\u0022fr\u0022:\u0022Visualiseur d\\u2019\\u00E9v\\u00E9nements\u0022,\u0022de\u0022:\u0022Ereignisanzeige\u0022,\u0022es\u0022:\u0022Visor de eventos\u0022,\u0022pt\u0022:\u0022Visualizador de eventos\u0022,\u0022Manual\u0022:false},\u0022Historian\u0022:{\u0022nl\u0022:\u0022Historian\u0022,\u0022fr\u0022:\u0022Historique\u0022,\u0022de\u0022:\u0022Historian\u0022,\u0022es\u0022:\u0022Historiador\u0022,\u0022pt\u0022:\u0022Hist\\u00F3rico\u0022,\u0022Manual\u0022:false},\u0022Trending\u0022:{\u0022nl\u0022:\u0022Trending\u0022,\u0022fr\u0022:\u0022Tendances\u0022,\u0022de\u0022:\u0022Trend\u0022,\u0022es\u0022:\u0022Tendencias\u0022,\u0022pt\u0022:\u0022Tend\\u00EAncias\u0022,\u0022Manual\u0022:false},\u0022Report Viewer\u0022:{\u0022nl\u0022:\u0022Rapportviewer\u0022,\u0022fr\u0022:\u0022Visualiseur de rapports\u0022,\u0022de\u0022:\u0022Berichtsanzeige\u0022,\u0022es\u0022:\u0022Visor de informes\u0022,\u0022pt\u0022:\u0022Visualizador de relat\\u00F3rios\u0022,\u0022Manual\u0022:false},\u0022English\u0022:{\u0022nl\u0022:\u0022Engels\u0022,\u0022fr\u0022:\u0022Anglais\u0022,\u0022de\u0022:\u0022Englisch\u0022,\u0022es\u0022:\u0022Ingl\\u00E9s\u0022,\u0022pt\u0022:\u0022Ingl\\u00EAs\u0022,\u0022Manual\u0022:false},\u0022French\u0022:{\u0022nl\u0022:\u0022Frans\u0022,\u0022fr\u0022:\u0022Fran\\u00E7ais\u0022,\u0022de\u0022:\u0022Franz\\u00F6sisch\u0022,\u0022es\u0022:\u0022Franc\\u00E9s\u0022,\u0022pt\u0022:\u0022Franc\\u00EAs\u0022,\u0022Manual\u0022:false},\u0022FALSE\u0022:{\u0022nl\u0022:\u0022ONWAAR\u0022,\u0022fr\u0022:\u0022FAUX\u0022,\u0022de\u0022:\u0022FALSCH\u0022,\u0022es\u0022:\u0022FALSO\u0022,\u0022pt\u0022:\u0022FALSO\u0022,\u0022Manual\u0022:false},\u0022Severity\u0022:{\u0022nl\u0022:\u0022Ernstigheid\u0022,\u0022fr\u0022:\u0022S\\u00E9v\\u00E9rit\\u00E9\u0022,\u0022de\u0022:\u0022Schweregrad\u0022,\u0022es\u0022:\u0022Severidad\u0022,\u0022pt\u0022:\u0022Gravidade\u0022,\u0022Manual\u0022:false},\u0022Asset\u0022:{\u0022nl\u0022:\u0022Asset\u0022,\u0022fr\u0022:\u0022Actif\u0022,\u0022de\u0022:\u0022Anlage\u0022,\u0022es\u0022:\u0022Activo\u0022,\u0022pt\u0022:\u0022Ativo\u0022,\u0022Manual\u0022:false},\u0022Message\u0022:{\u0022nl\u0022:\u0022Bericht\u0022,\u0022fr\u0022:\u0022Message\u0022,\u0022de\u0022:\u0022Nachricht\u0022,\u0022es\u0022:\u0022Mensaje\u0022,\u0022pt\u0022:\u0022Mensagem\u0022,\u0022Manual\u0022:false},\u0022OnTime\u0022:{\u0022nl\u0022:\u0022AanTijd\u0022,\u0022fr\u0022:\u0022Heure activation\u0022,\u0022de\u0022:\u0022Einschaltzeit\u0022,\u0022es\u0022:\u0022Hora encendido\u0022,\u0022pt\u0022:\u0022Hora de ativa\\u00E7\\u00E3o\u0022,\u0022Manual\u0022:false},\u0022OffTime\u0022:{\u0022nl\u0022:\u0022UitTijd\u0022,\u0022fr\u0022:\u0022Heure d\\u00E9sactivation\u0022,\u0022de\u0022:\u0022Ausschaltzeit\u0022,\u0022es\u0022:\u0022Hora apagado\u0022,\u0022pt\u0022:\u0022Hora de desativa\\u00E7\\u00E3o\u0022,\u0022Manual\u0022:false},\u0022AckTime\u0022:{\u0022nl\u0022:\u0022Bevestigingstijd\u0022,\u0022fr\u0022:\u0022Heure acquittement\u0022,\u0022de\u0022:\u0022Quittierzeit\u0022,\u0022es\u0022:\u0022Hora reconocimiento\u0022,\u0022pt\u0022:\u0022Hora de confirma\\u00E7\\u00E3o\u0022,\u0022Manual\u0022:false},\u0022AckUser\u0022:{\u0022nl\u0022:\u0022Bevestigd door\u0022,\u0022fr\u0022:\u0022Acquitt\\u00E9 par\u0022,\u0022de\u0022:\u0022Quittiert von\u0022,\u0022es\u0022:\u0022Reconocido por\u0022,\u0022pt\u0022:\u0022Confirmado por\u0022,\u0022Manual\u0022:false},\u0022AckComment\u0022:{\u0022nl\u0022:\u0022Bevestigingscommentaar\u0022,\u0022fr\u0022:\u0022Commentaire acquittement\u0022,\u0022de\u0022:\u0022Quittierungskommentar\u0022,\u0022es\u0022:\u0022Comentario reconocimiento\u0022,\u0022pt\u0022:\u0022Coment\\u00E1rio de confirma\\u00E7\\u00E3o\u0022,\u0022Manual\u0022:false},\u0022client.previousreports\u0022:{\u0022nl\u0022:\u0022client.previousreports\u0022,\u0022fr\u0022:\u0022client.previousreports\u0022,\u0022de\u0022:\u0022client.previousreports\u0022,\u0022es\u0022:\u0022client.previousreports\u0022,\u0022pt\u0022:\u0022client.previousreports\u0022,\u0022Manual\u0022:false},\u0022Label\u0022:{\u0022nl\u0022:\u0022Label\u0022,\u0022fr\u0022:\u0022\\u00C9tiquette\u0022,\u0022de\u0022:\u0022Bezeichnung\u0022,\u0022es\u0022:\u0022Etiqueta\u0022,\u0022pt\u0022:\u0022R\\u00F3tulo\u0022,\u0022Manual\u0022:false},\u0022Error\u0022:{\u0022nl\u0022:\u0022Fout\u0022,\u0022fr\u0022:\u0022Erreur\u0022,\u0022de\u0022:\u0022Fehler\u0022,\u0022es\u0022:\u0022Error\u0022,\u0022pt\u0022:\u0022Erro\u0022,\u0022Manual\u0022:false},\u0022Running\u0022:{\u0022nl\u0022:\u0022Draait\u0022,\u0022fr\u0022:\u0022En marche\u0022,\u0022de\u0022:\u0022Laufend\u0022,\u0022es\u0022:\u0022En marcha\u0022,\u0022pt\u0022:\u0022Em funcionamento\u0022,\u0022Manual\u0022:false},\u0022Manual\u0022:{\u0022nl\u0022:\u0022Handmatig\u0022,\u0022fr\u0022:\u0022Manuel\u0022,\u0022de\u0022:\u0022Manuell\u0022,\u0022es\u0022:\u0022Manual\u0022,\u0022pt\u0022:\u0022Manual\u0022,\u0022Manual\u0022:false},\u0022Maintenance\u0022:{\u0022nl\u0022:\u0022Onderhoud\u0022,\u0022fr\u0022:\u0022Maintenance\u0022,\u0022de\u0022:\u0022Wartung\u0022,\u0022es\u0022:\u0022Mantenimiento\u0022,\u0022pt\u0022:\u0022Manuten\\u00E7\\u00E3o\u0022,\u0022Manual\u0022:false},\u0022Press CTRL \\u002B i to see invisible objects.\u0022:{\u0022nl\u0022:\u0022Druk op CTRL \\u002B i om onzichtbare objecten te zien.\u0022,\u0022fr\u0022:\u0022Appuyez sur CTRL \\u002B i pour voir les objets invisibles.\u0022,\u0022de\u0022:\u0022Dr\\u00FCcken Sie CTRL \\u002B i um unsichtbare Objekte zu sehen.\u0022,\u0022es\u0022:\u0022Presione CTRL \\u002B i para ver objetos invisibles.\u0022,\u0022pt\u0022:\u0022Prima CTRL \\u002B i para ver objetos invis\\u00EDveis.\u0022,\u0022Manual\u0022:false},\u0022Auto\u0022:{\u0022nl\u0022:\u0022Auto\u0022,\u0022fr\u0022:\u0022Auto\u0022,\u0022de\u0022:\u0022Auto\u0022,\u0022es\u0022:\u0022Auto\u0022,\u0022pt\u0022:\u0022Auto\u0022,\u0022Manual\u0022:false},\u0022Start\u0022:{\u0022nl\u0022:\u0022Start\u0022,\u0022fr\u0022:\u0022Start\u0022,\u0022de\u0022:\u0022Start\u0022,\u0022es\u0022:\u0022Inicio\u0022,\u0022pt\u0022:\u0022Iniciar\u0022,\u0022Manual\u0022:false},\u0022Stop\u0022:{\u0022nl\u0022:\u0022Stop\u0022,\u0022fr\u0022:\u0022Arr\\u00EAt\u0022,\u0022de\u0022:\u0022Stopp\u0022,\u0022es\u0022:\u0022Parar\u0022,\u0022pt\u0022:\u0022Parar\u0022,\u0022Manual\u0022:false},\u0022Open\u0022:{\u0022nl\u0022:\u0022Open\u0022,\u0022fr\u0022:\u0022Ouvert\u0022,\u0022de\u0022:\u0022Offen\u0022,\u0022es\u0022:\u0022Abierto\u0022,\u0022pt\u0022:\u0022Aberto\u0022,\u0022Manual\u0022:false},\u0022Closed\u0022:{\u0022nl\u0022:\u0022Gesloten\u0022,\u0022fr\u0022:\u0022Ferm\\u00E9\u0022,\u0022de\u0022:\u0022Geschlossen\u0022,\u0022es\u0022:\u0022Cerrado\u0022,\u0022pt\u0022:\u0022Fechado\u0022,\u0022Manual\u0022:false},\u0022PageTitle\u0022:{\u0022nl\u0022:\u0022Paginatitel\u0022,\u0022fr\u0022:\u0022Titre de page\u0022,\u0022de\u0022:\u0022Seitentitel\u0022,\u0022es\u0022:\u0022T\\u00EDtulo de p\\u00E1gina\u0022,\u0022pt\u0022:\u0022T\\u00EDtulo da p\\u00E1gina\u0022,\u0022Manual\u0022:false},\u0022Historian Viewer\u0022:{\u0022nl\u0022:\u0022Historian Viewer\u0022,\u0022fr\u0022:\u0022Visualiseur Historique\u0022,\u0022de\u0022:\u0022Historian Anzeige\u0022,\u0022es\u0022:\u0022Visor Historiador\u0022,\u0022pt\u0022:\u0022Visualizador Hist\\u00F3rico\u0022,\u0022Manual\u0022:false},\u0022Trend Viewer\u0022:{\u0022nl\u0022:\u0022Trend Viewer\u0022,\u0022fr\u0022:\u0022Visualiseur de tendance\u0022,\u0022de\u0022:\u0022Trendanzeige\u0022,\u0022es\u0022:\u0022Visor de tendencias\u0022,\u0022pt\u0022:\u0022Visualizador de tend\\u00EAncias\u0022,\u0022Manual\u0022:false},\u0022Welcome! This a very simple Tank simulation demo project as an example on how to create a basic project with reusable symbols and faceplates.\u0022:{\u0022nl\u0022:\u0022Welkom! Dit is een zeer eenvoudig tank-simulatie demo project als voorbeeld hoe je een basisproject maakt met herbruikbare symbolen en faceplates.\u0022,\u0022fr\u0022:\u0022Bienvenue ! Ceci est un projet de d\\u00E9monstration tr\\u00E8s simple de simulation de r\\u00E9servoir comme exemple pour cr\\u00E9er un projet de base avec des symboles et faceplates r\\u00E9utilisables.\u0022,\u0022de\u0022:\u0022Willkommen! Dies ist ein sehr einfaches Tanksimulations-Demoprojekt als Beispiel zur Erstellung eines Basisprojekts mit wiederverwendbaren Symbolen und Faceplates.\u0022,\u0022es\u0022:\u0022\\u00A1Bienvenido! Este es un proyecto de demostraci\\u00F3n muy simple de simulaci\\u00F3n de tanque como ejemplo de c\\u00F3mo crear un proyecto b\\u00E1sico con s\\u00EDmbolos y faceplates reutilizables.\u0022,\u0022pt\u0022:\u0022Bem-vindo! Este \\u00E9 um projeto de demonstra\\u00E7\\u00E3o muito simples de simula\\u00E7\\u00E3o de tanque como exemplo de como criar um projeto b\\u00E1sico com s\\u00EDmbolos e faceplates reutiliz\\u00E1veis.\u0022,\u0022Manual\u0022:false},\u0022Hold CTRL and scroll to Zoom Hold middle mouse button to PanCTRL \\u002B M to restore\u0022:{\u0022nl\u0022:\u0022Houd CTRL ingedrukt en scroll om te zoomen Houd de middelste muisknop ingedrukt om te pannen CTRL \\u002B M om te herstellen\u0022,\u0022fr\u0022:\u0022Maintenez CTRL et utilisez la molette pour zoomer Maintenez le bouton central de la souris pour d\\u00E9placer CTRL \\u002B M pour restaurer\u0022,\u0022de\u0022:\u0022Halten Sie CTRL gedr\\u00FCckt und scrollen Sie zum Zoomen Halten Sie die mittlere Maustaste zum Verschieben CTRL \\u002B M zum Wiederherstellen\u0022,\u0022es\u0022:\u0022Mantenga CTRL y use la rueda para hacer zoom Mantenga el bot\\u00F3n central del rat\\u00F3n para mover CTRL \\u002B M para restaurar\u0022,\u0022pt\u0022:\u0022Mantenha CTRL premido e use a roda para ampliar Mantenha o bot\\u00E3o do meio do rato para mover CTRL \\u002B M para restaurar\u0022,\u0022Manual\u0022:false},\u0022For Developers: Press CTRL \\u002B E to go into Edit ModePress CTRL \\u002B Q to open the Menu\u0022:{\u0022nl\u0022:\u0022Voor ontwikkelaars: Druk op CTRL \\u002B E om naar Bewerkmodus te gaan Druk op CTRL \\u002B Q om het menu te openen\u0022,\u0022fr\u0022:\u0022Pour les d\\u00E9veloppeurs : Appuyez sur CTRL \\u002B E pour passer en mode \\u00E9dition Appuyez sur CTRL \\u002B Q pour ouvrir le menu\u0022,\u0022de\u0022:\u0022F\\u00FCr Entwickler: Dr\\u00FCcken Sie CTRL \\u002B E f\\u00FCr den Bearbeitungsmodus Dr\\u00FCcken Sie CTRL \\u002B Q um das Men\\u00FC zu \\u00F6ffnen\u0022,\u0022es\u0022:\u0022Para desarrolladores: Presione CTRL \\u002B E para entrar en modo edici\\u00F3n Presione CTRL \\u002B Q para abrir el men\\u00FA\u0022,\u0022pt\u0022:\u0022Para desenvolvedores: Prima CTRL \\u002B E para entrar no modo de edi\\u00E7\\u00E3o Prima CTRL \\u002B Q para abrir o menu\u0022,\u0022Manual\u0022:false},\u0022Want a demo? contact@omniconautomation.com\u0022:{\u0022nl\u0022:\u0022Wil je een demo? contact@omniconautomation.com\u0022,\u0022fr\u0022:\u0022Vous voulez une d\\u00E9mo ? contact@omniconautomation.com\u0022,\u0022de\u0022:\u0022M\\u00F6chten Sie eine Demo? contact@omniconautomation.com\u0022,\u0022es\u0022:\u0022\\u00BFQuieres una demo? contact@omniconautomation.com\u0022,\u0022pt\u0022:\u0022Quer uma demonstra\\u00E7\\u00E3o? contact@omniconautomation.com\u0022,\u0022Manual\u0022:false},\u0022Spanish\u0022:{\u0022nl\u0022:\u0022Spaans\u0022,\u0022fr\u0022:\u0022Espagnol\u0022,\u0022de\u0022:\u0022Spanisch\u0022,\u0022es\u0022:\u0022Espa\\u00F1ol\u0022,\u0022pt\u0022:\u0022Espanhol\u0022,\u0022Manual\u0022:false},\u0022Logout\u0022:{\u0022nl\u0022:\u0022Uitloggen\u0022,\u0022fr\u0022:\u0022D\\u00E9connexion\u0022,\u0022de\u0022:\u0022Abmelden\u0022,\u0022es\u0022:\u0022Cerrar sesi\\u00F3n\u0022,\u0022pt\u0022:\u0022Terminar sess\\u00E3o\u0022,\u0022Manual\u0022:false},\u0022false\u0022:{\u0022nl\u0022:\u0022onwaar\u0022,\u0022fr\u0022:\u0022faux\u0022,\u0022de\u0022:\u0022falsch\u0022,\u0022es\u0022:\u0022falso\u0022,\u0022pt\u0022:\u0022falso\u0022,\u0022Manual\u0022:false}}"
   },
   {
     "Name": "CSVDelimiter",
@@ -125,7 +125,7 @@
   },
   {
     "Name": "Participant1IPAddress",
-    "Value": ""
+    "Value": null
   },
   {
     "Name": "Participant2IPAddress",
@@ -157,7 +157,7 @@
   },
   {
     "Name": "GlobalScript",
-    "Value": ""
+    "Value": "function OnGlobalLoad() {\n    //console.log(\u0027Global Loaded\u0027);\n}\n\nfunction OnGlobalPeriodic() {\n    //console.log(\u0027Global Code Executing\u0027);\n}\n\nfunction OnGlobalExit() {\n    //console.log(\u0027Global Exited\u0027);\n}"
   },
   {
     "Name": "EnableModbusTcpServer",
@@ -173,39 +173,11 @@
   },
   {
     "Name": "Languages",
-    "Value": "[\u0022nl\u0022,\u0022fr\u0022,\u0022de\u0022,\u0022es\u0022,\u0022pt\u0022]"
-  },
-  {
-    "Name": "GuestDefaultLanguage",
-    "Value": "English"
-  },
-  {
-    "Name": "BackfillMaxRecords",
-    "Value": "800"
-  },
-  {
-    "Name": "ForefillMaxRecords",
-    "Value": "800"
-  },
-  {
-    "Name": "BaseRequestTimeout",
-    "Value": "60"
-  },
-  {
-    "Name": "RequestTimeout",
-    "Value": "3"
-  },
-  {
-    "Name": "MaxAttempts",
-    "Value": "2"
-  },
-  {
-    "Name": "AttemptDelay",
-    "Value": "200"
+    "Value": "[\u0022nl\u0022,\u0022fr\u0022,\u0022es\u0022,\u0022pt\u0022,\u0022tl\u0022]"
   },
   {
     "Name": "LoginTitleFontColor",
-    "Value": "#355B8D"
+    "Value": "#1e8a00"
   },
   {
     "Name": "LoginBoxBackgroundColor",
@@ -238,6 +210,106 @@
   {
     "Name": "LoginChangePasswordFontColor",
     "Value": "#458EF6"
+  },
+  {
+    "Name": "EnableRedundancy",
+    "Value": "False"
+  },
+  {
+    "Name": "LayerSettings",
+    "Value": ""
+  },
+  {
+    "Name": "EnableModbusRtuServer",
+    "Value": "False"
+  },
+  {
+    "Name": "ModbusRtuPortName",
+    "Value": "COM3"
+  },
+  {
+    "Name": "ModbusRtuServerUnitId",
+    "Value": "5"
+  },
+  {
+    "Name": "ModbusRtuServerVerbose",
+    "Value": "0"
+  },
+  {
+    "Name": "EnableOpcUaServer",
+    "Value": "False"
+  },
+  {
+    "Name": "OpcUaServerPort",
+    "Value": "4840"
+  },
+  {
+    "Name": "OpcUaServerVerbose",
+    "Value": "0"
+  },
+  {
+    "Name": "Language1",
+    "Value": "Language1"
+  },
+  {
+    "Name": "Language2",
+    "Value": "Language2"
+  },
+  {
+    "Name": "Language3",
+    "Value": "Language3"
+  },
+  {
+    "Name": "Language4",
+    "Value": "Language4"
+  },
+  {
+    "Name": "Language5",
+    "Value": "Language5"
+  },
+  {
+    "Name": "ModbusRtuBaudRate",
+    "Value": "9600"
+  },
+  {
+    "Name": "ModbusRtuParity",
+    "Value": "Even"
+  },
+  {
+    "Name": "ModbusRtuStopBits",
+    "Value": "One"
+  },
+  {
+    "Name": "ModbusRtuHandshake",
+    "Value": "None"
+  },
+  {
+    "Name": "GuestDefaultLanguage",
+    "Value": "English"
+  },
+  {
+    "Name": "BackfillMaxRecords",
+    "Value": "800"
+  },
+  {
+    "Name": "ForefillMaxRecords",
+    "Value": "800"
+  },
+  {
+    "Name": "BaseRequestTimeout",
+    "Value": "60"
+  },
+  {
+    "Name": "RequestTimeout",
+    "Value": "3"
+  },
+  {
+    "Name": "MaxAttempts",
+    "Value": "2"
+  },
+  {
+    "Name": "AttemptDelay",
+    "Value": "200"
   },
   {
     "Name": "ViewerLineColor",
@@ -336,58 +408,6 @@
     "Value": "False"
   },
   {
-    "Name": "EnableRedundancy",
-    "Value": "False"
-  },
-  {
-    "Name": "LayerSettings",
-    "Value": ""
-  },
-  {
-    "Name": "EnableModbusRtuServer",
-    "Value": "False"
-  },
-  {
-    "Name": "ModbusRtuPortName",
-    "Value": "COM3"
-  },
-  {
-    "Name": "ModbusRtuBaudRate",
-    "Value": "9600"
-  },
-  {
-    "Name": "ModbusRtuParity",
-    "Value": "Even"
-  },
-  {
-    "Name": "ModbusRtuStopBits",
-    "Value": "One"
-  },
-  {
-    "Name": "ModbusRtuHandshake",
-    "Value": "None"
-  },
-  {
-    "Name": "ModbusRtuServerUnitId",
-    "Value": "5"
-  },
-  {
-    "Name": "ModbusRtuServerVerbose",
-    "Value": "0"
-  },
-  {
-    "Name": "EnableOpcUaServer",
-    "Value": "False"
-  },
-  {
-    "Name": "OpcUaServerPort",
-    "Value": "4840"
-  },
-  {
-    "Name": "OpcUaServerVerbose",
-    "Value": "0"
-  },
-  {
     "Name": "GitRemoteUrl",
     "Value": "https://github.com/OmniconAutomation/TankDemo.git"
   },
@@ -397,6 +417,6 @@
   },
   {
     "Name": "GitToken",
-    "Value": "D\u002BAY/FP9j04YmKjYU9DcvV2Xq5EVzvRg5ugYpRnqb3qnL01VB16rtbslMR8aGy9SvkdZC/liaHl\u002B6Tro8Dr8Yv5a1hx0PJ\u002B\u002BuTVmZg5ju2f5xuvKXiedeh2lzEzzr6f7t4P2bUsDht01ypzAf/Yga6z3Yh\u002B2jKCoY\u002BfqsV7cBfjiwlKbm7seJLTGq2768O\u002BRi/wrA4iy/WO1yxq4QkNBfg=="
+    "Value": "jabxY/dciX7ApH70PlHvK7iZlbl2kYxb3aK9v5y5Ij3\u002BcbF9Jr2M1Oq5U06KstLfX2xhh79EcHzNxo3Qo\u002B\u002BpRHmGcm42kZJFiFQ9fU4SODGSLMDITMaWYPI0hp1Cics5kY3i9csmG8am4KnhrcehBFjkpYKkVB197S8SlvEl5iGnRENn8mgF6e7HEO\u002BdEaVch3WGD86dqD5xANmhEyISpg=="
   }
 ]

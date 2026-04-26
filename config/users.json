@@ -1,10 +1,10 @@
 [
   {
     "UserName": "Admin",
-    "Password": "10000.kqL8yt5VuRr5jPRagRPs1A==.nN0WkltiEGzhtgqx54vzhpxhYQ4Kh8T8i10CqJVx2zQ=",
+    "Password": "10000.6U0Me\u002BaQ2hVj2C6vpv\u002BPBw==.6OJO9f9NJx/IQUw1Bmp4a9r/VS1DtM\u002BnFB4zpfenruM=",
     "UserGroups": "Administrators",
     "HomePage": "Overview",
-    "DefaultLanguage": "English"
+    "DefaultLanguage": "Portugu\u00EAs (Portugal)"
   },
   {
     "UserName": "Operator",
@@ -12,5 +12,12 @@
     "UserGroups": "Operators",
     "HomePage": "Overview",
     "DefaultLanguage": "English"
+  },
+  {
+    "UserName": "Bob",
+    "Password": "10000.P0fndnV9FWJqXPhaRWoNwg==.NIgaqdMgVaFabkpBKlEuZaVbaG55mjNFI6Mueom\u002BR4E=",
+    "UserGroups": "Maintenance",
+    "HomePage": "Overview",
+    "DefaultLanguage": "Fran\u00E7ais"
   }
 ]

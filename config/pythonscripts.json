@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "Enable": true,
+    "Name": "SetTemperatureScript",
+    "Asset": "",
+    "UserGroups": "",
+    "Description": "",
+    "EndPoint": "SetTemperature",
+    "Script": "import json\n\ndata = json.loads(GetParam(\u0022body\u0022, \u0022{}\u0022))\ntemperature = data.get(\u0022temperature\u0022, 0)\n\nSetValue(\u0022PLC.Temperature\u0022, str(temperature))\n\nprint(\u0022Done\u0022)"
+  },
+  {
+    "Enable": true,
+    "Name": "Calculate",
+    "Asset": null,
+    "UserGroups": null,
+    "Description": null,
+    "EndPoint": null,
+    "Script": "print(GetIntValue(\u0022M340.Flow\u0022))\n\n\nSetValue(\u0022M340.Flow\u0022, \u002233\u0022)"
+  },
+  {
+    "Enable": true,
+    "Name": "DailyReport",
+    "Asset": "",
+    "UserGroups": "",
+    "Description": "",
+    "EndPoint": "",
+    "Script": "# Import libraries \nimport time\nfrom datetime import datetime, date, time, timedelta\nimport sqlite3\nimport csv\nfrom fpdf import FPDF\nimport sys\nimport os\n\ntry:\n    # Connect to Historian Database\n    con = sqlite3.connect(\u0022Database/Historian.db\u0022)\n    cur = con.cursor()\n\n    # Build Query [get all yesterday\u0027s hourly snapshots for a variable]\n    device = \u0027Sim\u0027\n    variable = \u0027Tank1_LevelTransmitter\u0027\n    report_date_str = (datetime.today()-timedelta(days=1)).strftime(\u0027%Y-%m-%d\u0027)\n    timestampfrom = f\u0022{report_date_str} 00:00:00\u0022\n    timestampto   = f\u0022{report_date_str} 23:59:59\u0022\n\n    # Get the last recorded (current) value within each hour (end-of-hour snapshot)\n    query = \u0022\u0022\u0022\n    SELECT\n        strftime(\u0027%H\u0027, h.Timestamp) AS Hour,\n        h.Value AS TankLevel\n    FROM HistoricData h\n    JOIN (\n        SELECT\n            strftime(\u0027%Y-%m-%d %H\u0027, Timestamp) AS HourKey,\n            MAX(Timestamp) AS MaxTs\n        FROM HistoricData\n        WHERE Device = ? \n          AND Variable = ?\n          AND Timestamp BETWEEN ? AND ?\n        GROUP BY strftime(\u0027%Y-%m-%d %H\u0027, Timestamp)\n    ) m\n      ON strftime(\u0027%Y-%m-%d %H\u0027, h.Timestamp) = m.HourKey\n     AND h.Timestamp = m.MaxTs\n    WHERE h.Device = ?\n      AND h.Variable = ?\n    ORDER BY Hour\n    \u0022\u0022\u0022\n\n    # Execute Query (parameterized)\n    result = cur.execute(query, (device, variable, timestampfrom, timestampto, device, variable))\n    rows = result.fetchall()\n\n    # Print data to console\n    for row in rows:\n        Hour, TankLevel = row\n        #print(f\u0022Hour: {Hour}, Tank Level: {TankLevel}\u0022)\n\n    # Print data to CSV\n    csvdirectory = \u0027C:/inetpub/wwwroot/EnvisionSCADA/wwwroot/Reports/\u0027\n    os.makedirs(csvdirectory, exist_ok=True)\n    csvfilename = \u0027Daily Report \u0027 \u002B datetime.today().strftime(\u0027%Y-%m-%d\u0027) \u002B \u0027.csv\u0027\n\n    with open(csvdirectory \u002B csvfilename, \u0027w\u0027, newline=\u0027\u0027) as csvfile:\n        writer = csv.writer(csvfile, delimiter=\u0027;\u0027, quotechar=\u0027|\u0027, quoting=csv.QUOTE_MINIMAL)\n        writer.writerow([\u0027Hour\u0027, \u0027Tank Level\u0027])\n        for row in rows:\n            Hour, TankLevel = row\n            writer.writerow([Hour, TankLevel])\n\n    # Print data to PDF\n    pdfdirectory = \u0027C:/inetpub/wwwroot/EnvisionSCADA/wwwroot/Reports/\u0027\n    pdffilename = \u0027Daily Report \u0027 \u002B datetime.today().strftime(\u0027%Y-%m-%d\u0027) \u002B \u0027.pdf\u0027\n\n    # Configure header/footer\n    DISCLAIMER_TEXT = (\n        \u0022Disclaimer: For internal operational use only. \u0022\n        \u0022Data pulled from Historian; values provided as-is and may include delays or missing samples.\u0022\n    )\n\n    class PDF(FPDF):\n        def header(self):\n            # Logo\n            self.image(r\u0027https://www.omniconautomation.com/web/image/website/1/logo/Omnicon%20Automation.png\u0027,\n                       x=14, y=8, w=20)\n            self.set_font(\u0027Arial\u0027, \u0027B\u0027, 18)\n            self.cell(80)\n            self.cell(30, 10, \u0027Daily Report\u0027, 0, 0, \u0027C\u0027)\n            self.ln(20)\n\n        def footer(self):\n            self.set_y(-15)\n            self.set_font(\u0027Arial\u0027, \u0027I\u0027, 8)\n\n            # Left (Omnicon Automation)\n            self.set_x(10)\n            self.cell(0, 10, \u0027Omnicon Automation\u0027, 0, 0, \u0027L\u0027)\n\n            # Center (Tank Demo)\n            self.set_x(self.w / 2 - 15)  # adjust -15 to align text better\n            self.cell(30, 10, \u0027Tank Demo\u0027, 0, 0, \u0027C\u0027)\n\n            # Right (Page number)\n            self.set_x(-40)\n            self.cell(30, 10, f\u0027Page {self.page_no()}/{{nb}}\u0027, 0, 0, \u0027R\u0027)\n\n\n    # Creation of the PDF\n    pdf = PDF()\n    pdf.alias_nb_pages()\n    pdf.add_page()\n    pdf.ln(10)\n    pdf.set_font(\u0027Times\u0027, \u0027B\u0027, 12); pdf.cell(40, 6, \u0027Customer:\u0027, 0, 0); pdf.set_font(\u0027Times\u0027, \u0027\u0027, 12); pdf.cell(0, 6, \u0027Omnicon Automation\u0027, 0, 1)\n    pdf.set_font(\u0027Times\u0027, \u0027B\u0027, 12); pdf.cell(40, 6, \u0027Plant:\u0027, 0, 0); pdf.set_font(\u0027Times\u0027, \u0027\u0027, 12); pdf.cell(0, 6, \u0027Tank Park\u0027, 0, 1)\n    pdf.set_font(\u0027Times\u0027, \u0027B\u0027, 12); pdf.cell(40, 6, \u0027Report Date:\u0027, 0, 0); pdf.set_font(\u0027Times\u0027, \u0027\u0027, 12); pdf.cell(0, 6, report_date_str, 0, 1)\n\n    pdf.ln(10)\n    pdf.set_font(\u0027Times\u0027, \u0027B\u0027, 14)\n    pdf.cell(40, 8, \u0022Hour\u0022, 1, 0); pdf.cell(0, 8, \u0022Tank Level (snapshot)\u0022, 1, 1)\n    pdf.set_font(\u0027Times\u0027, \u0027\u0027, 12)\n    for row in rows:\n        Hour, TankLevel = row\n        pdf.cell(40, 6, Hour, 1, 0); pdf.cell(0, 6, str(TankLevel), 1, 1)\n\n    pdf.output(pdfdirectory \u002B pdffilename, \u0027F\u0027)\n\n    # Close database connection\n    con.close()\n\nexcept Exception as e:\n    exc_type, exc_obj, exc_tb = sys.exc_info()\n    print(exc_type, exc_tb.tb_lineno)\n    print(str(e))\n"
+  }
+]

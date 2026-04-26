@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "Enable": true,
+    "Name": "PLCx",
+    "IpAddress": "127.0.0.1",
+    "Port": 44818,
+    "Plc": "LGX",
+    "Path": "1,0",
+    "ScanRate": 2000,
+    "Template": "",
+    "Description": null,
+    "Timeout": 3000,
+    "Verbose": 0
+  }
+]
