@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "DeviceName": "Test",
+    "Enable": true,
+    "Name": "Test",
+    "Asset": "",
+    "ObjectType": "Analogue input all variations(30-0)",
+    "IndexNumber": 0,
+    "Description": "",
+    "Pulse": false,
+    "UserGroups": "",
+    "Recipes": "",
+    "Units": "",
+    "MinRaw": 0,
+    "MaxRaw": 0,
+    "MinScaled": 0,
+    "MaxScaled": 0,
+    "Converter": "",
+    "Deadband": 0,
+    "MinimumTime": 0,
+    "SampleGroup": "",
+    "Historian": false,
+    "ModbusAddress": "",
+    "OpcUa": false,
+    "Writeable": false,
+    "KafkaDevice": "",
+    "KafkaProducer": false,
+    "KafkaConsumer": false,
+    "KafkaRemapDevice": "",
+    "KafkaRemapVariable": ""
+  }
+]

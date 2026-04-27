@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "Enable": true,
+    "Name": "Test",
+    "IpAddress": "127.0.2.0",
+    "Port": 20000,
+    "OutstationAddress": 2,
+    "MasterAddress": 1,
+    "Template": "",
+    "Description": "",
+    "EnableUnsolicited": true,
+    "ChannelRetryMin": 5,
+    "ChannelRetryMax": 5,
+    "ChannelRetryReconnectDelay": 10,
+    "IntegrityPoll": true,
+    "IntegrityPollTimespan": 300,
+    "Class1Poll": false,
+    "Class1PollTimespan": 30,
+    "Class2Poll": false,
+    "Class2PollTimespan": 30,
+    "Class3Poll": false,
+    "Class3PollTimespan": 30,
+    "Verbose": 0
+  }
+]

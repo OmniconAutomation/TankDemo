@@ -6,12 +6,12 @@
     "Port": 1883,
     "Timeout": 10,
     "Retry": 5,
-    "Username": null,
-    "Password": null,
+    "Username": "",
+    "Password": "",
     "Verbose": 0,
     "UseTls": false,
     "AllowUntrustedCertificates": false,
-    "ClientCertificateName": null,
-    "Description": null
+    "ClientCertificateName": "",
+    "Description": ""
   }
 ]

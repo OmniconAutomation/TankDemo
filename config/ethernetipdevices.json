@@ -8,7 +8,20 @@
     "Path": "1,0",
     "ScanRate": 2000,
     "Template": "",
-    "Description": null,
+    "Description": "",
+    "Timeout": 3000,
+    "Verbose": 1
+  },
+  {
+    "Enable": true,
+    "Name": "PLC1",
+    "IpAddress": "127.0.0.1",
+    "Port": 44818,
+    "Plc": "LGX",
+    "Path": "1,0",
+    "ScanRate": 2000,
+    "Template": "",
+    "Description": "",
     "Timeout": 3000,
     "Verbose": 0
   }

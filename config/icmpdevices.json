@@ -4,7 +4,7 @@
     "Name": "Switch1",
     "IpAddress": "127.0.0.1",
     "Interval": 5,
-    "Description": null,
+    "Description": "",
     "Verbose": 0,
     "RetryCount": 3,
     "HistorizeOnline": 0

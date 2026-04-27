@@ -1,10 +1,42 @@
 [
   {
     "Enable": true,
-    "Name": "PowerMeter",
+    "Name": "PowerMeterX",
     "MqttClientName": "broker",
     "Template": "",
     "Timeout": 120,
-    "Description": null
+    "Description": ""
+  },
+  {
+    "Enable": true,
+    "Name": "HVAC",
+    "MqttClientName": "broker",
+    "Template": "",
+    "Timeout": 120,
+    "Description": ""
+  },
+  {
+    "Enable": true,
+    "Name": "sdsdsd",
+    "MqttClientName": "broker",
+    "Template": "",
+    "Timeout": 120,
+    "Description": ""
+  },
+  {
+    "Enable": true,
+    "Name": "ssdsd",
+    "MqttClientName": "broker",
+    "Template": "",
+    "Timeout": 120,
+    "Description": ""
+  },
+  {
+    "Enable": true,
+    "Name": "TESST",
+    "MqttClientName": "broker",
+    "Template": "",
+    "Timeout": 120,
+    "Description": ""
   }
 ]
