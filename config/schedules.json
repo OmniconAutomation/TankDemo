@@ -1,5 +1,17 @@
 [
   {
+    "Name": "APIRefresh",
+    "Enable": true,
+    "Asset": "",
+    "FromTime": "2026-04-01T00:05:00",
+    "ToTime": null,
+    "Repeat": "Every 5s",
+    "Description": "",
+    "Exceptions": "",
+    "Actions": "[{\u0022Type\u0022:\u0022Execute Script\u0022,\u0022Script\u0022:\u0022APIConnection\u0022}]",
+    "ActionsOff": ""
+  },
+  {
     "Name": "Fill Tank",
     "Enable": true,
     "Asset": "",

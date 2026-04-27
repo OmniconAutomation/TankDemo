@@ -1,6 +1,15 @@
 [
   {
     "Enable": true,
+    "Name": "APIConnection",
+    "Asset": "",
+    "UserGroups": "",
+    "Description": "",
+    "EndPoint": "",
+    "Script": "import requests\n\nurl = \u0022https://api.open-meteo.com/v1/forecast?latitude=50.85\u0026longitude=4.35\u0026current_weather=true\u0022\n\ndata = requests.get(url).json()\n\nprint(data[\u0022current_weather\u0022][\u0022temperature\u0022])\n\nSetValue(\u0022Local.Temperature\u0022, data[\u0022current_weather\u0022][\u0022temperature\u0022])"
+  },
+  {
+    "Enable": true,
     "Name": "SetTemperatureScript",
     "Asset": "",
     "UserGroups": "",
