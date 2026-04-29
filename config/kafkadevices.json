@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "Enable": true,
+    "Name": "KafkaTest",
+    "BootstrapServers": "dsgfsdfs",
+    "SaslMechanism": "ScramSha512",
+    "SecurityProtocol": "SaslSsl",
+    "SaslUsername": "dsfsdf",
+    "SaslPassword": "sdf",
+    "Description": "",
+    "GroupId": "",
+    "ClientId": "",
+    "TimeStampFormat": "",
+    "ProducerTopic": "",
+    "ConsumerTopic": "",
+    "DeviceKey": "",
+    "VariableKey": "",
+    "TimeStampKey": "",
+    "ValueKey": "",
+    "ProduceFormat": "",
+    "Verbose": 0
+  }
+]

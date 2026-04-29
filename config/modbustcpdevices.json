@@ -8,7 +8,7 @@
     "UnitId": 1,
     "ScanRate": 2000,
     "Template": "",
-    "Description": "",
+    "Description": "yes we can , yes we could :D",
     "AllowScanningBlocks": true,
     "MaxBlockSizeAllowed": 120,
     "AllowJumpingRegisters": true,

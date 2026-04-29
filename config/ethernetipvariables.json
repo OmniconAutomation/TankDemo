@@ -31,7 +31,7 @@
   {
     "DeviceName": "PLCx",
     "Enable": true,
-    "Name": "Var2",
+    "Name": "Var2df",
     "Asset": "",
     "Type": "INT",
     "Address": "xx",
@@ -56,5 +56,34 @@
     "KafkaConsumer": false,
     "KafkaRemapDevice": "",
     "KafkaRemapVariable": ""
+  },
+  {
+    "DeviceName": "PLC1",
+    "Enable": true,
+    "Name": "Test",
+    "Asset": null,
+    "Type": "INT",
+    "Address": "sdsds",
+    "Description": null,
+    "Recipes": null,
+    "UserGroups": null,
+    "Units": null,
+    "MinRaw": 0,
+    "MaxRaw": 0,
+    "MinScaled": 0,
+    "MaxScaled": 0,
+    "Converter": null,
+    "Deadband": 0,
+    "MinimumTime": 0,
+    "SampleGroup": null,
+    "Historian": false,
+    "ModbusAddress": null,
+    "OpcUa": false,
+    "Writeable": false,
+    "KafkaDevice": null,
+    "KafkaProducer": false,
+    "KafkaConsumer": false,
+    "KafkaRemapDevice": null,
+    "KafkaRemapVariable": null
   }
 ]

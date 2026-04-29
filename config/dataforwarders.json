@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "Enable": true,
+    "Name": "Backup",
+    "Description": "",
+    "DatabaseType": "SqlServer",
+    "ConnectionString": "",
+    "ForwardData": false,
+    "ForwardAlarms": false,
+    "ForwardEvents": false,
+    "Mode": "Insert",
+    "DataQuery": "",
+    "AlarmQuery": "",
+    "EventQuery": "",
+    "Interval": 5000,
+    "BatchSize": 100,
+    "Verbose": 0
+  },
+  {
+    "Enable": true,
+    "Name": "dfcdsfsddsd",
+    "Description": "",
+    "DatabaseType": "MySQL",
+    "ConnectionString": "",
+    "ForwardData": false,
+    "ForwardAlarms": false,
+    "ForwardEvents": false,
+    "Mode": "Insert",
+    "DataQuery": "",
+    "AlarmQuery": "",
+    "EventQuery": "",
+    "Interval": 5000,
+    "BatchSize": 100,
+    "Verbose": 0
+  }
+]

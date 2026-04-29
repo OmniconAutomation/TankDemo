@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "Enable": true,
+    "Asset": "",
+    "Condition": "Sim.Tank1_SetLevel \u003E 7000",
+    "Message": "Tank level too high {Sim.Tank1_SetLevel}",
+    "Severity": 1,
+    "AlarmGroups": "",
+    "Actions": ""
+  }
+]

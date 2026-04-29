@@ -161,7 +161,7 @@
   },
   {
     "Name": "EnableModbusTcpServer",
-    "Value": "False"
+    "Value": "True"
   },
   {
     "Name": "ModbusTcpServerPort",
@@ -397,7 +397,7 @@
   },
   {
     "Name": "GitToken",
-    "Value": "jabxY/dciX7ApH70PlHvK7iZlbl2kYxb3aK9v5y5Ij3\u002BcbF9Jr2M1Oq5U06KstLfX2xhh79EcHzNxo3Qo\u002B\u002BpRHmGcm42kZJFiFQ9fU4SODGSLMDITMaWYPI0hp1Cics5kY3i9csmG8am4KnhrcehBFjkpYKkVB197S8SlvEl5iGnRENn8mgF6e7HEO\u002BdEaVch3WGD86dqD5xANmhEyISpg=="
+    "Value": "YG17tW8NyMrDxS0qySrYuMijCmRRsYa2r\u002BAWnkHdFVlAq48BMwJmsgOJZ5uW4hg75NvRRBYwR3uMEjDQ1epQxlk92U/OR60k3Z3/xwCl9opzqbCEIgFVW3DNy127hwPlv4SVq\u002BBFYO8g6l2CEu3fW3PmcDZs6wBcjYgohfPoCTNh0Uign2l6coTUW9sPIgbXmv1NlFsWUBss35HaU5B6fg=="
   },
   {
     "Name": "Language1",
